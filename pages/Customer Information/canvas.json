@@ -407,6 +407,21 @@
               "dynamicTriggerPathList": [
                 {
                   "key": "menuItems.menuItemrtmgasby2d.onClick"
+                },
+                {
+                  "key": "menuItems.menuItem2.onClick"
+                },
+                {
+                  "key": "menuItems.menuItem1.onClick"
+                },
+                {
+                  "key": "menuItems.menuItem3.onClick"
+                },
+                {
+                  "key": "menuItems.menuItemy9jnq2t5bt.onClick"
+                },
+                {
+                  "key": "menuItems.menuItem9upb7s5e4s.onClick"
                 }
               ],
               "leftColumn": 1,
@@ -431,7 +446,8 @@
                   "widgetId": "",
                   "isVisible": true,
                   "isDisabled": false,
-                  "index": 0
+                  "index": 0,
+                  "onClick": "{{navigateTo('Homepage', {}, 'SAME_WINDOW')}}"
                 },
                 "menuItem2": {
                   "label": "Orders Database",
@@ -439,7 +455,8 @@
                   "widgetId": "",
                   "isVisible": true,
                   "isDisabled": false,
-                  "index": 1
+                  "index": 1,
+                  "onClick": "{{navigateTo('Orders', {}, 'SAME_WINDOW')}}"
                 },
                 "menuItemrtmgasby2d": {
                   "id": "menuItemrtmgasby2d",
@@ -456,7 +473,8 @@
                   "widgetId": "",
                   "isVisible": true,
                   "isDisabled": false,
-                  "index": 3
+                  "index": 3,
+                  "onClick": "{{navigateTo('New Client Product', {}, 'SAME_WINDOW')}}"
                 },
                 "menuItemy9jnq2t5bt": {
                   "id": "menuItemy9jnq2t5bt",
@@ -464,7 +482,8 @@
                   "label": "Delete Product",
                   "widgetId": "ddiracgev0",
                   "isDisabled": false,
-                  "isVisible": true
+                  "isVisible": true,
+                  "onClick": "{{navigateTo('Delete Client Product', {}, 'SAME_WINDOW')}}"
                 },
                 "menuItem9upb7s5e4s": {
                   "id": "menuItem9upb7s5e4s",
@@ -472,7 +491,8 @@
                   "label": "Update Product",
                   "widgetId": "mq4w4re8ur",
                   "isDisabled": false,
-                  "isVisible": true
+                  "isVisible": true,
+                  "onClick": "{{navigateTo('Get or Update Client Product', {}, 'SAME_WINDOW')}}"
                 }
               },
               "isVisible": true,

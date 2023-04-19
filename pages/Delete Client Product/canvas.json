@@ -53,6 +53,9 @@
                 },
                 {
                   "key": "menuItems.menuItemhiv48zk1ai.onClick"
+                },
+                {
+                  "key": "menuItems.menuItemjax72ckdrd.onClick"
                 }
               ],
               "leftColumn": 0,
@@ -104,7 +107,8 @@
                   "label": "Products Database",
                   "widgetId": "gg4xm7aer3",
                   "isDisabled": false,
-                  "isVisible": true
+                  "isVisible": true,
+                  "onClick": "{{navigateTo('Products Database', {}, 'SAME_WINDOW')}}"
                 },
                 "menuItem3": {
                   "label": "Add New Product",
@@ -483,7 +487,7 @@
               "originalTopRow": 12,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 37,
+              "originalBottomRow": 36,
               "minDynamicHeight": 10
             },
             {

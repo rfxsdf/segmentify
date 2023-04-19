@@ -53,6 +53,9 @@
                 },
                 {
                   "key": "menuItems.menuItemhiv48zk1ai.onClick"
+                },
+                {
+                  "key": "menuItems.menuItem8uczvl8j9e.onClick"
                 }
               ],
               "leftColumn": 0,
@@ -86,7 +89,8 @@
                   "label": "Products Database",
                   "widgetId": "vfpmen1q0s",
                   "isDisabled": false,
-                  "isVisible": true
+                  "isVisible": true,
+                  "onClick": "{{navigateTo('Products Database', {}, 'SAME_WINDOW')}}"
                 },
                 "menuItem1": {
                   "label": "Customer Database",
@@ -666,10 +670,10 @@
               "renderMode": "CANVAS",
               "isLoading": false,
               "responsiveBehavior": "fill",
-              "originalTopRow": 17,
+              "originalTopRow": 13,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 73,
+              "originalBottomRow": 69,
               "minDynamicHeight": 10
             },
             {
@@ -724,7 +728,7 @@
               "originalTopRow": 7,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 16,
+              "originalBottomRow": 12,
               "fontSize": "1rem",
               "minDynamicHeight": 4
             }

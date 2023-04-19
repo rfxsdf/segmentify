@@ -53,6 +53,9 @@
                 },
                 {
                   "key": "menuItems.menuItemhiv48zk1ai.onClick"
+                },
+                {
+                  "key": "menuItems.menuItem5sc19kaht1.onClick"
                 }
               ],
               "leftColumn": 0,
@@ -104,7 +107,8 @@
                   "label": "Product Database",
                   "widgetId": "vuyt40o2no",
                   "isDisabled": false,
-                  "isVisible": true
+                  "isVisible": true,
+                  "onClick": "{{navigateTo('Products Database', {}, 'SAME_WINDOW')}}"
                 },
                 "menuItem3": {
                   "label": "Add New Product",
