@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Orders",
-    "slug": "orders",
+    "name": "Products Database",
+    "slug": "products-database",
     "layouts": [
       {
         "viewMode": false,
@@ -13,14 +13,14 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 2760,
+          "bottomRow": 870,
           "containerStyle": "none",
-          "snapRows": 60,
+          "snapRows": 61,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
           "version": 77,
-          "minHeight": 620,
+          "minHeight": 630,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
           "leftColumn": 0,
@@ -31,8 +31,8 @@
               "widgetName": "MenuButton1",
               "displayName": "Menu Button",
               "iconSVG": "/static/media/icon.0341d17d67020c8bfc560cc5928af2a7.svg",
-              "topRow": 1,
-              "bottomRow": 5,
+              "topRow": 2,
+              "bottomRow": 6,
               "parentRowSpace": 10,
               "type": "MENU_BUTTON_WIDGET",
               "hideCard": false,
@@ -41,6 +41,9 @@
               "dynamicTriggerPathList": [
                 {
                   "key": "menuItems.menuItem1.onClick"
+                },
+                {
+                  "key": "menuItems.menuItem2.onClick"
                 },
                 {
                   "key": "menuItems.menuItem3.onClick"
@@ -53,9 +56,6 @@
                 },
                 {
                   "key": "menuItems.menuItemhiv48zk1ai.onClick"
-                },
-                {
-                  "key": "menuItems.menuItem9ygwv5v9s8.onClick"
                 }
               ],
               "leftColumn": 0,
@@ -72,7 +72,7 @@
               "isDeprecated": false,
               "rightColumn": 22,
               "menuVariant": "PRIMARY",
-              "widgetId": "j2yhvznrgj",
+              "widgetId": "ldzgdino0w",
               "menuItems": {
                 "menuItemhiv48zk1ai": {
                   "id": "menuItemhiv48zk1ai",
@@ -92,14 +92,14 @@
                   "index": 1,
                   "onClick": "{{navigateTo('Customer Information', {},'SAME_WINDOW')}}"
                 },
-                "menuItem9ygwv5v9s8": {
-                  "id": "menuItem9ygwv5v9s8",
-                  "index": 2,
-                  "label": "Products Database",
-                  "widgetId": "dlihfkwp8d",
-                  "isDisabled": false,
+                "menuItem2": {
+                  "label": "Orders Database",
+                  "id": "menuItem2",
+                  "widgetId": "",
                   "isVisible": true,
-                  "onClick": "{{navigateTo('Products Database', {}, 'SAME_WINDOW')}}"
+                  "isDisabled": false,
+                  "index": 2,
+                  "onClick": "{{navigateTo('Orders', {},'SAME_WINDOW')}}"
                 },
                 "menuItem3": {
                   "label": "Add New Product",
@@ -147,7 +147,7 @@
               "borderColor": "#E0DEDE",
               "isVisibleDownload": true,
               "iconSVG": "/static/media/icon.db8a9cbd2acd22a31ea91cc37ea2a46c.svg",
-              "topRow": 8,
+              "topRow": 7,
               "isSortable": true,
               "type": "TABLE_WIDGET_V2",
               "inlineEditingSaveOption": "ROW_LEVEL",
@@ -166,16 +166,19 @@
                   "key": "tableData"
                 },
                 {
-                  "key": "primaryColumns.App_ID.computedValue"
+                  "key": "primaryColumns.CP_Name.computedValue"
                 },
                 {
-                  "key": "primaryColumns.O_Customer_ID.computedValue"
+                  "key": "primaryColumns.Category_ID.computedValue"
                 },
                 {
-                  "key": "primaryColumns.O_Order_ID.computedValue"
+                  "key": "primaryColumns.Curr_Client_ID.computedValue"
                 },
                 {
-                  "key": "primaryColumns.Service_ID.computedValue"
+                  "key": "primaryColumns.Product_ID.computedValue"
+                },
+                {
+                  "key": "primaryColumns.Unit_Price.computedValue"
                 }
               ],
               "needsHeightForContent": true,
@@ -213,21 +216,23 @@
                 }
               },
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "columnUpdatedAt": 1681859852435,
+              "columnUpdatedAt": 1681883089939,
+              "originalBottomRow": 124,
               "defaultSelectedRowIndices": [
                 0
               ],
-              "widgetName": "Orders_Table",
+              "widgetName": "Client_Product_Table",
               "defaultPageSize": 0,
               "columnOrder": [
-                "O_Order_ID",
-                "App_ID",
-                "O_Customer_ID",
-                "Service_ID"
+                "CP_Name",
+                "Category_ID",
+                "Curr_Client_ID",
+                "Product_ID",
+                "Unit_Price"
               ],
               "dynamicPropertyPathList": [],
               "displayName": "Table",
-              "bottomRow": 276,
+              "bottomRow": 87,
               "columnWidthMap": {
                 "task": 245,
                 "step": 70,
@@ -239,16 +244,16 @@
               "dynamicTriggerPathList": [],
               "borderWidth": "1",
               "primaryColumns": {
-                "App_ID": {
+                "CP_Name": {
                   "allowCellWrapping": false,
                   "index": 0,
                   "width": 150,
-                  "originalId": "App_ID",
-                  "id": "App_ID",
-                  "alias": "App_ID",
+                  "originalId": "CP_Name",
+                  "id": "CP_Name",
+                  "alias": "CP_Name",
                   "horizontalAlignment": "LEFT",
                   "verticalAlignment": "CENTER",
-                  "columnType": "number",
+                  "columnType": "text",
                   "textColor": "",
                   "textSize": "0.875rem",
                   "fontStyle": "",
@@ -260,21 +265,21 @@
                   "isEditable": false,
                   "isCellVisible": true,
                   "isDerived": false,
-                  "label": "App_ID",
+                  "label": "CP_Name",
                   "isSaveVisible": true,
                   "isDiscardVisible": true,
-                  "computedValue": "{{Orders_Table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"App_ID\"]))}}",
+                  "computedValue": "{{Client_Product_Table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"CP_Name\"]))}}",
                   "sticky": "",
                   "validation": {},
                   "cellBackground": ""
                 },
-                "O_Customer_ID": {
+                "Category_ID": {
                   "allowCellWrapping": false,
                   "index": 1,
                   "width": 150,
-                  "originalId": "O_Customer_ID",
-                  "id": "O_Customer_ID",
-                  "alias": "O_Customer_ID",
+                  "originalId": "Category_ID",
+                  "id": "Category_ID",
+                  "alias": "Category_ID",
                   "horizontalAlignment": "LEFT",
                   "verticalAlignment": "CENTER",
                   "columnType": "number",
@@ -289,21 +294,21 @@
                   "isEditable": false,
                   "isCellVisible": true,
                   "isDerived": false,
-                  "label": "O_Customer_ID",
+                  "label": "Category_ID",
                   "isSaveVisible": true,
                   "isDiscardVisible": true,
-                  "computedValue": "{{Orders_Table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"O_Customer_ID\"]))}}",
+                  "computedValue": "{{Client_Product_Table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Category_ID\"]))}}",
                   "sticky": "",
                   "validation": {},
                   "cellBackground": ""
                 },
-                "O_Order_ID": {
+                "Curr_Client_ID": {
                   "allowCellWrapping": false,
                   "index": 2,
                   "width": 150,
-                  "originalId": "O_Order_ID",
-                  "id": "O_Order_ID",
-                  "alias": "O_Order_ID",
+                  "originalId": "Curr_Client_ID",
+                  "id": "Curr_Client_ID",
+                  "alias": "Curr_Client_ID",
                   "horizontalAlignment": "LEFT",
                   "verticalAlignment": "CENTER",
                   "columnType": "number",
@@ -318,21 +323,21 @@
                   "isEditable": false,
                   "isCellVisible": true,
                   "isDerived": false,
-                  "label": "O_Order_ID",
+                  "label": "Curr_Client_ID",
                   "isSaveVisible": true,
                   "isDiscardVisible": true,
-                  "computedValue": "{{Orders_Table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"O_Order_ID\"]))}}",
+                  "computedValue": "{{Client_Product_Table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Curr_Client_ID\"]))}}",
                   "sticky": "",
                   "validation": {},
                   "cellBackground": ""
                 },
-                "Service_ID": {
+                "Product_ID": {
                   "allowCellWrapping": false,
                   "index": 3,
                   "width": 150,
-                  "originalId": "Service_ID",
-                  "id": "Service_ID",
-                  "alias": "Service_ID",
+                  "originalId": "Product_ID",
+                  "id": "Product_ID",
+                  "alias": "Product_ID",
                   "horizontalAlignment": "LEFT",
                   "verticalAlignment": "CENTER",
                   "columnType": "number",
@@ -347,23 +352,52 @@
                   "isEditable": false,
                   "isCellVisible": true,
                   "isDerived": false,
-                  "label": "Service_ID",
+                  "label": "Product_ID",
                   "isSaveVisible": true,
                   "isDiscardVisible": true,
-                  "computedValue": "{{Orders_Table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Service_ID\"]))}}",
+                  "computedValue": "{{Client_Product_Table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Product_ID\"]))}}",
+                  "sticky": "",
+                  "validation": {},
+                  "cellBackground": ""
+                },
+                "Unit_Price": {
+                  "allowCellWrapping": false,
+                  "index": 4,
+                  "width": 150,
+                  "originalId": "Unit_Price",
+                  "id": "Unit_Price",
+                  "alias": "Unit_Price",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "text",
+                  "textColor": "",
+                  "textSize": "0.875rem",
+                  "fontStyle": "",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellEditable": false,
+                  "isEditable": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "Unit_Price",
+                  "isSaveVisible": true,
+                  "isDiscardVisible": true,
+                  "computedValue": "{{Client_Product_Table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Unit_Price\"]))}}",
                   "sticky": "",
                   "validation": {},
                   "cellBackground": ""
                 }
               },
-              "key": "gwwqja8qov",
+              "key": "spwad6ybao",
               "canFreezeColumn": true,
               "isDeprecated": false,
               "rightColumn": 64,
               "textSize": "0.875rem",
-              "widgetId": "vu5wqh3qlo",
+              "widgetId": "z6czqqi4n4",
               "minWidth": 450,
-              "tableData": "{{Get_Orders.data}}",
+              "tableData": "{{Get_Client_Products.data}}",
               "label": "Data",
               "searchKey": "",
               "parentId": "0",
@@ -371,6 +405,7 @@
               "horizontalAlignment": "LEFT",
               "isVisibleSearch": true,
               "responsiveBehavior": "fill",
+              "originalTopRow": 44,
               "isVisiblePagination": true,
               "verticalAlignment": "CENTER"
             }
@@ -379,8 +414,8 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Orders_Get_Orders",
-              "name": "Get_Orders",
+              "id": "Products Database_Get_Client_Products",
+              "name": "Get_Client_Products",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [],
@@ -390,16 +425,15 @@
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Orders",
+        "id": "Products Database",
         "deleted": false,
         "policies": [],
         "userPermissions": []
       }
     ],
     "userPermissions": [],
-    "policies": [],
-    "isHidden": false
+    "policies": []
   },
   "deleted": false,
-  "gitSyncId": "643f17503324bc7b03df111b_643f20803324bc7b03df1124"
+  "gitSyncId": "644043665c099e5516ca73c8_64404a2b5c099e5516ca73fc"
 }

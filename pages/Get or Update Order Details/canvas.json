@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1080,
+          "bottomRow": 600,
           "containerStyle": "none",
           "snapRows": 61,
           "parentRowSpace": 1,
@@ -35,8 +35,8 @@
               "searchTags": [
                 "group"
               ],
-              "topRow": 0,
-              "bottomRow": 50,
+              "topRow": 10,
+              "bottomRow": 60,
               "parentRowSpace": 10,
               "type": "FORM_WIDGET",
               "hideCard": false,
@@ -77,7 +77,7 @@
                         "label"
                       ],
                       "topRow": 1,
-                      "bottomRow": 5,
+                      "bottomRow": 7,
                       "type": "TEXT_WIDGET",
                       "hideCard": false,
                       "animateLoading": true,
@@ -114,8 +114,10 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "responsiveBehavior": "fill",
+                      "originalTopRow": 1,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "maxDynamicHeight": 9000,
+                      "originalBottomRow": 7,
                       "fontSize": "1.25rem",
                       "minDynamicHeight": 4
                     },
@@ -226,8 +228,8 @@
                         "number",
                         "textarea"
                       ],
-                      "topRow": 8,
-                      "bottomRow": 15,
+                      "topRow": 10,
+                      "bottomRow": 17,
                       "parentRowSpace": 10,
                       "labelWidth": 5,
                       "autoFocus": false,
@@ -271,8 +273,10 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "responsiveBehavior": "fill",
+                      "originalTopRow": 10,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "maxDynamicHeight": 9000,
+                      "originalBottomRow": 17,
                       "iconAlign": "left",
                       "defaultText": "{{Table1.selectedRow.O_Order_ID}}",
                       "minDynamicHeight": 4
@@ -288,8 +292,8 @@
                         "number",
                         "textarea"
                       ],
-                      "topRow": 17,
-                      "bottomRow": 24,
+                      "topRow": 19,
+                      "bottomRow": 26,
                       "parentRowSpace": 10,
                       "labelWidth": 5,
                       "autoFocus": false,
@@ -333,8 +337,10 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "responsiveBehavior": "fill",
+                      "originalTopRow": 19,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "maxDynamicHeight": 9000,
+                      "originalBottomRow": 26,
                       "iconAlign": "left",
                       "defaultText": "{{Table1.selectedRow.Quantity}}",
                       "minDynamicHeight": 4
@@ -350,8 +356,8 @@
                         "number",
                         "textarea"
                       ],
-                      "topRow": 26,
-                      "bottomRow": 33,
+                      "topRow": 28,
+                      "bottomRow": 35,
                       "parentRowSpace": 10,
                       "labelWidth": 5,
                       "autoFocus": false,
@@ -395,8 +401,10 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "responsiveBehavior": "fill",
+                      "originalTopRow": 28,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "maxDynamicHeight": 9000,
+                      "originalBottomRow": 35,
                       "iconAlign": "left",
                       "defaultText": "{{Table1.selectedRow.Discount}}",
                       "minDynamicHeight": 4
@@ -412,8 +420,8 @@
                         "number",
                         "textarea"
                       ],
-                      "topRow": 35,
-                      "bottomRow": 42,
+                      "topRow": 37,
+                      "bottomRow": 44,
                       "parentRowSpace": 10,
                       "labelWidth": 5,
                       "autoFocus": false,
@@ -457,8 +465,10 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "responsiveBehavior": "fill",
+                      "originalTopRow": 37,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "maxDynamicHeight": 9000,
+                      "originalBottomRow": 44,
                       "iconAlign": "left",
                       "defaultText": "{{Table1.selectedRow.Unit_Price}}",
                       "minDynamicHeight": 4
@@ -485,7 +495,7 @@
               "key": "xilk2yv5jh",
               "backgroundColor": "#FFFFFF",
               "isDeprecated": false,
-              "rightColumn": 64,
+              "rightColumn": 23,
               "dynamicHeight": "AUTO_HEIGHT",
               "widgetId": "bx5iuoidm9",
               "minWidth": 450,
@@ -494,10 +504,10 @@
               "renderMode": "CANVAS",
               "isLoading": false,
               "responsiveBehavior": "fill",
-              "originalTopRow": 0,
+              "originalTopRow": 10,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 50,
+              "originalBottomRow": 60,
               "minDynamicHeight": 10
             },
             {
@@ -505,7 +515,7 @@
               "borderColor": "#E0DEDE",
               "isVisibleDownload": true,
               "iconSVG": "/static/media/icon.db8a9cbd2acd22a31ea91cc37ea2a46c.svg",
-              "topRow": 50,
+              "topRow": 10,
               "isSortable": true,
               "type": "TABLE_WIDGET_V2",
               "inlineEditingSaveOption": "ROW_LEVEL",
@@ -540,7 +550,7 @@
                 }
               ],
               "needsHeightForContent": true,
-              "leftColumn": 0,
+              "leftColumn": 23,
               "delimiter": ",",
               "defaultSelectedRowIndex": 0,
               "accentColor": "{{appsmith.theme.colors.primaryColor}}",
@@ -590,11 +600,12 @@
               ],
               "dynamicPropertyPathList": [],
               "displayName": "Table",
-              "bottomRow": 108,
+              "bottomRow": 59,
               "columnWidthMap": {
                 "task": 245,
                 "step": 70,
-                "status": 85
+                "status": 85,
+                "Quantity": 107
               },
               "parentRowSpace": 10,
               "hideCard": false,
@@ -751,6 +762,97 @@
               "originalTopRow": 50,
               "isVisiblePagination": true,
               "verticalAlignment": "CENTER"
+            },
+            {
+              "isCompact": false,
+              "boxShadow": "none",
+              "widgetName": "MenuButton1",
+              "displayName": "Menu Button",
+              "iconSVG": "/static/media/icon.0341d17d67020c8bfc560cc5928af2a7.svg",
+              "topRow": 1,
+              "bottomRow": 5,
+              "parentRowSpace": 10,
+              "type": "MENU_BUTTON_WIDGET",
+              "hideCard": false,
+              "animateLoading": true,
+              "parentColumnSpace": 16.75,
+              "dynamicTriggerPathList": [
+                {
+                  "key": "menuItems.menuItem1.onClick"
+                },
+                {
+                  "key": "menuItems.menuItemkfu65whgn5.onClick"
+                },
+                {
+                  "key": "menuItems.menuItem2.onClick"
+                },
+                {
+                  "key": "menuItems.menuItem3.onClick"
+                }
+              ],
+              "leftColumn": 0,
+              "dynamicBindingPathList": [
+                {
+                  "key": "menuColor"
+                },
+                {
+                  "key": "borderRadius"
+                }
+              ],
+              "isDisabled": false,
+              "key": "5eme9k2o83",
+              "isDeprecated": false,
+              "rightColumn": 16,
+              "menuVariant": "PRIMARY",
+              "widgetId": "3p45k9vaje",
+              "menuItems": {
+                "menuItem1": {
+                  "label": "Homepage",
+                  "id": "menuItem1",
+                  "widgetId": "",
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "index": 0,
+                  "onClick": "{{navigateTo('Homepage', {}, 'SAME_WINDOW')}}"
+                },
+                "menuItemkfu65whgn5": {
+                  "id": "menuItemkfu65whgn5",
+                  "index": 1,
+                  "label": "Current Clients Database",
+                  "widgetId": "fnai0dt6cg",
+                  "isDisabled": false,
+                  "isVisible": true,
+                  "onClick": "{{navigateTo('Current Clients', {}, 'SAME_WINDOW')}}"
+                },
+                "menuItem2": {
+                  "label": "Add Client",
+                  "id": "menuItem2",
+                  "widgetId": "",
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "index": 2,
+                  "onClick": "{{navigateTo('Add New Client', {}, 'SAME_WINDOW')}}"
+                },
+                "menuItem3": {
+                  "label": "Delete Client",
+                  "id": "menuItem3",
+                  "widgetId": "",
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "index": 3,
+                  "onClick": "{{navigateTo('Delete a Client', {}, 'SAME_WINDOW')}}"
+                }
+              },
+              "isVisible": true,
+              "label": "Navigate to a Different Page",
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "menuItemsSource": "STATIC",
+              "menuColor": "{{appsmith.theme.colors.primaryColor}}",
+              "placement": "CENTER"
             }
           ]
         },

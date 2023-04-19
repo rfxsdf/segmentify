@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1790,
+          "bottomRow": 1840,
           "containerStyle": "none",
           "snapRows": 60,
           "parentRowSpace": 1,
@@ -30,7 +30,7 @@
               "borderColor": "#E0DEDE",
               "isVisibleDownload": true,
               "iconSVG": "/static/media/icon.db8a9cbd2acd22a31ea91cc37ea2a46c.svg",
-              "topRow": 1,
+              "topRow": 6,
               "isSortable": true,
               "type": "TABLE_WIDGET_V2",
               "inlineEditingSaveOption": "ROW_LEVEL",
@@ -74,7 +74,7 @@
                 }
               ],
               "needsHeightForContent": true,
-              "leftColumn": 0,
+              "leftColumn": 1,
               "delimiter": ",",
               "defaultSelectedRowIndex": 0,
               "accentColor": "{{appsmith.theme.colors.primaryColor}}",
@@ -126,7 +126,7 @@
               ],
               "dynamicPropertyPathList": [],
               "displayName": "Table",
-              "bottomRow": 179,
+              "bottomRow": 184,
               "columnWidthMap": {
                 "task": 245,
                 "step": 70,
@@ -374,7 +374,7 @@
               "key": "gwwqja8qov",
               "canFreezeColumn": true,
               "isDeprecated": false,
-              "rightColumn": 63,
+              "rightColumn": 64,
               "textSize": "0.875rem",
               "widgetId": "r5m71hbtde",
               "minWidth": 450,
@@ -388,6 +388,101 @@
               "responsiveBehavior": "fill",
               "isVisiblePagination": true,
               "verticalAlignment": "CENTER"
+            },
+            {
+              "isCompact": false,
+              "boxShadow": "none",
+              "widgetName": "MenuButton1",
+              "displayName": "Menu Button",
+              "iconSVG": "/static/media/icon.0341d17d67020c8bfc560cc5928af2a7.svg",
+              "topRow": 1,
+              "bottomRow": 5,
+              "parentRowSpace": 10,
+              "type": "MENU_BUTTON_WIDGET",
+              "hideCard": false,
+              "animateLoading": true,
+              "parentColumnSpace": 16.75,
+              "dynamicTriggerPathList": [
+                {
+                  "key": "menuItems.menuItemrtmgasby2d.onClick"
+                }
+              ],
+              "leftColumn": 1,
+              "dynamicBindingPathList": [
+                {
+                  "key": "menuColor"
+                },
+                {
+                  "key": "borderRadius"
+                }
+              ],
+              "isDisabled": false,
+              "key": "5eme9k2o83",
+              "isDeprecated": false,
+              "rightColumn": 20,
+              "menuVariant": "PRIMARY",
+              "widgetId": "pxr3d4k7fy",
+              "menuItems": {
+                "menuItem1": {
+                  "label": "Homepage",
+                  "id": "menuItem1",
+                  "widgetId": "",
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "index": 0
+                },
+                "menuItem2": {
+                  "label": "Orders Database",
+                  "id": "menuItem2",
+                  "widgetId": "",
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "index": 1
+                },
+                "menuItemrtmgasby2d": {
+                  "id": "menuItemrtmgasby2d",
+                  "index": 2,
+                  "label": "Product Database",
+                  "widgetId": "92wo5gjftf",
+                  "isDisabled": false,
+                  "isVisible": true,
+                  "onClick": "{{navigateTo('Products Database', {}, 'SAME_WINDOW')}}"
+                },
+                "menuItem3": {
+                  "label": "Add New Product",
+                  "id": "menuItem3",
+                  "widgetId": "",
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "index": 3
+                },
+                "menuItemy9jnq2t5bt": {
+                  "id": "menuItemy9jnq2t5bt",
+                  "index": 4,
+                  "label": "Delete Product",
+                  "widgetId": "ddiracgev0",
+                  "isDisabled": false,
+                  "isVisible": true
+                },
+                "menuItem9upb7s5e4s": {
+                  "id": "menuItem9upb7s5e4s",
+                  "index": 5,
+                  "label": "Update Product",
+                  "widgetId": "mq4w4re8ur",
+                  "isDisabled": false,
+                  "isVisible": true
+                }
+              },
+              "isVisible": true,
+              "label": "Navigate to a Different Page",
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "menuItemsSource": "STATIC",
+              "menuColor": "{{appsmith.theme.colors.primaryColor}}",
+              "placement": "CENTER"
             }
           ]
         },
