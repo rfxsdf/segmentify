@@ -217,7 +217,7 @@
               },
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "columnUpdatedAt": 1681883089939,
-              "originalBottomRow": 91,
+              "originalBottomRow": 93,
               "defaultSelectedRowIndices": [
                 0
               ],
@@ -405,7 +405,7 @@
               "horizontalAlignment": "LEFT",
               "isVisibleSearch": true,
               "responsiveBehavior": "fill",
-              "originalTopRow": 11,
+              "originalTopRow": 13,
               "isVisiblePagination": true,
               "verticalAlignment": "CENTER"
             },
@@ -442,10 +442,10 @@
               ],
               "shouldTruncate": false,
               "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-              "text": "Use the table below to browse throgh product information.",
+              "text": "Use the table below to browse through product information.",
               "key": "u3gtdg8iwd",
               "isDeprecated": false,
-              "rightColumn": 27,
+              "rightColumn": 29,
               "textAlign": "LEFT",
               "dynamicHeight": "AUTO_HEIGHT",
               "widgetId": "ju9ybtcapi",
@@ -458,10 +458,10 @@
               "renderMode": "CANVAS",
               "isLoading": false,
               "responsiveBehavior": "fill",
-              "originalTopRow": 6,
+              "originalTopRow": 7,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 11,
+              "originalBottomRow": 12,
               "fontSize": "1rem",
               "minDynamicHeight": 4
             }

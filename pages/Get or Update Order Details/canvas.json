@@ -334,7 +334,7 @@
                       "showStepArrows": false,
                       "minWidth": 450,
                       "isVisible": true,
-                      "label": "Enter upadted quantity:",
+                      "label": "Enter updated quantity:",
                       "version": 2,
                       "parentId": "vtbf1gbx6k",
                       "labelAlignment": "left",
@@ -398,7 +398,7 @@
                       "showStepArrows": false,
                       "minWidth": 450,
                       "isVisible": true,
-                      "label": "Enter updated disount in percent:",
+                      "label": "Enter updated discount in percent:",
                       "version": 2,
                       "parentId": "vtbf1gbx6k",
                       "labelAlignment": "left",
@@ -589,7 +589,7 @@
               },
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "columnUpdatedAt": 1681897279617,
-              "originalBottomRow": 74,
+              "originalBottomRow": 70,
               "defaultSelectedRowIndices": [
                 0
               ],
@@ -763,7 +763,7 @@
               "horizontalAlignment": "LEFT",
               "isVisibleSearch": true,
               "responsiveBehavior": "fill",
-              "originalTopRow": 25,
+              "originalTopRow": 21,
               "isVisiblePagination": true,
               "verticalAlignment": "CENTER"
             },
@@ -891,7 +891,7 @@
               ],
               "shouldTruncate": false,
               "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-              "text": "1. Use the table on the right to naviagte through the order details database.",
+              "text": "1. Use the table on the right to navigate through the order details database.",
               "key": "u3gtdg8iwd",
               "isDeprecated": false,
               "rightColumn": 39,
@@ -1022,7 +1022,7 @@
               "originalTopRow": 16,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 21,
+              "originalBottomRow": 20,
               "fontSize": "1rem",
               "minDynamicHeight": 4
             }

@@ -339,7 +339,7 @@
                           "key": "borderRadius"
                         }
                       ],
-                      "labelPosition": "Left",
+                      "labelPosition": "Top",
                       "labelStyle": "BOLD",
                       "inputType": "TEXT",
                       "isDisabled": false,
@@ -354,7 +354,7 @@
                       "showStepArrows": false,
                       "minWidth": 450,
                       "isVisible": true,
-                      "label": "Enter Client ID",
+                      "label": "Client ID:",
                       "version": 2,
                       "parentId": "otfskyb7qu",
                       "labelAlignment": "left",

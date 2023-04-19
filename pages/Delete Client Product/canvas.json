@@ -329,7 +329,7 @@
                       "showStepArrows": false,
                       "minWidth": 450,
                       "isVisible": true,
-                      "label": "Enter the Product ID to deleted:\n",
+                      "label": "Product ID:\n",
                       "version": 2,
                       "parentId": "yfu1juc5yr",
                       "labelAlignment": "left",
