@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 630,
+          "bottomRow": 690,
           "containerStyle": "none",
           "snapRows": 60,
           "parentRowSpace": 1,
@@ -44,9 +44,6 @@
                 },
                 {
                   "key": "menuItems.menuItem2.onClick"
-                },
-                {
-                  "key": "menuItems.menuItem3.onClick"
                 },
                 {
                   "key": "menuItems.menuItem8lpfvrrluu.onClick"
@@ -109,18 +106,9 @@
                   "index": 3,
                   "onClick": "{{navigateTo('Orders', {},'SAME_WINDOW')}}"
                 },
-                "menuItem3": {
-                  "label": "Add New Product",
-                  "id": "menuItem3",
-                  "widgetId": "",
-                  "isVisible": true,
-                  "isDisabled": false,
-                  "index": 4,
-                  "onClick": "{{navigateTo('New Client Product', {},'SAME_WINDOW')}}"
-                },
                 "menuItem8lpfvrrluu": {
                   "id": "menuItem8lpfvrrluu",
-                  "index": 5,
+                  "index": 4,
                   "label": "Delete Product",
                   "widgetId": "oyfaohagme",
                   "isDisabled": false,
@@ -129,7 +117,7 @@
                 },
                 "menuItemgetj6xtv3s": {
                   "id": "menuItemgetj6xtv3s",
-                  "index": 6,
+                  "index": 5,
                   "label": "Update Product",
                   "widgetId": "qo7iqm4xi7",
                   "isDisabled": false,
@@ -160,8 +148,8 @@
               "searchTags": [
                 "group"
               ],
-              "topRow": 7,
-              "bottomRow": 63,
+              "topRow": 13,
+              "bottomRow": 69,
               "parentRowSpace": 10,
               "type": "FORM_WIDGET",
               "hideCard": false,
@@ -223,7 +211,7 @@
                       ],
                       "shouldTruncate": false,
                       "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-                      "text": "Enter New Client Product Info\n",
+                      "text": "Enter New Product Information\n",
                       "key": "2zpbu3bwz1",
                       "isDeprecated": false,
                       "rightColumn": 25.5,
@@ -374,11 +362,11 @@
                         }
                       ],
                       "labelPosition": "Top",
-                      "labelStyle": "",
+                      "labelStyle": "BOLD",
                       "inputType": "TEXT",
                       "isDisabled": false,
                       "key": "pry9la3p26",
-                      "labelTextSize": "0.875rem",
+                      "labelTextSize": "1rem",
                       "isRequired": false,
                       "isDeprecated": false,
                       "rightColumn": 22,
@@ -388,7 +376,7 @@
                       "showStepArrows": false,
                       "minWidth": 450,
                       "isVisible": true,
-                      "label": "Enter the new client product name.\n",
+                      "label": "Enter new product product name:\n",
                       "version": 2,
                       "parentId": "ab6cpk41dc",
                       "labelAlignment": "left",
@@ -421,7 +409,7 @@
                           "key": "borderRadius"
                         }
                       ],
-                      "labelStyle": "",
+                      "labelStyle": "BOLD",
                       "isDisabled": false,
                       "isRequired": false,
                       "dynamicHeight": "FIXED",
@@ -447,12 +435,12 @@
                       "dynamicTriggerPathList": [],
                       "labelPosition": "Top",
                       "key": "y16r6cc1n0",
-                      "labelTextSize": "0.875rem",
+                      "labelTextSize": "1rem",
                       "isDeprecated": false,
                       "rightColumn": 22,
                       "widgetId": "scd17s0sux",
                       "minWidth": 450,
-                      "label": "Enter the new client product price.\n",
+                      "label": "Enter new product price:\n",
                       "parentId": "ab6cpk41dc",
                       "labelAlignment": "left",
                       "renderMode": "CANVAS",
@@ -496,11 +484,11 @@
                         }
                       ],
                       "labelPosition": "Top",
-                      "labelStyle": "",
+                      "labelStyle": "BOLD",
                       "inputType": "TEXT",
                       "isDisabled": false,
                       "key": "pry9la3p26",
-                      "labelTextSize": "0.875rem",
+                      "labelTextSize": "1rem",
                       "isRequired": false,
                       "isDeprecated": false,
                       "rightColumn": 22,
@@ -510,7 +498,7 @@
                       "showStepArrows": false,
                       "minWidth": 450,
                       "isVisible": true,
-                      "label": "Enter the new client product ID.\n",
+                      "label": "Enter new Product ID:\n",
                       "version": 2,
                       "parentId": "ab6cpk41dc",
                       "labelAlignment": "left",
@@ -557,11 +545,11 @@
                         }
                       ],
                       "labelPosition": "Top",
-                      "labelStyle": "",
+                      "labelStyle": "BOLD",
                       "inputType": "TEXT",
                       "isDisabled": false,
                       "key": "pry9la3p26",
-                      "labelTextSize": "0.875rem",
+                      "labelTextSize": "1rem",
                       "isRequired": false,
                       "isDeprecated": false,
                       "rightColumn": 26,
@@ -571,7 +559,7 @@
                       "showStepArrows": false,
                       "minWidth": 450,
                       "isVisible": true,
-                      "label": "Enter the new client product category ID.\n",
+                      "label": "Enter new product Category ID:\n",
                       "version": 2,
                       "parentId": "ab6cpk41dc",
                       "labelAlignment": "left",
@@ -618,11 +606,11 @@
                         }
                       ],
                       "labelPosition": "Top",
-                      "labelStyle": "",
+                      "labelStyle": "BOLD",
                       "inputType": "TEXT",
                       "isDisabled": false,
                       "key": "pry9la3p26",
-                      "labelTextSize": "0.875rem",
+                      "labelTextSize": "1rem",
                       "isRequired": false,
                       "isDeprecated": false,
                       "rightColumn": 27,
@@ -632,7 +620,7 @@
                       "showStepArrows": false,
                       "minWidth": 450,
                       "isVisible": true,
-                      "label": "Enter the new client product's client ID.\n",
+                      "label": "Enter your client ID:\n",
                       "version": 2,
                       "parentId": "ab6cpk41dc",
                       "labelAlignment": "left",
@@ -678,11 +666,67 @@
               "renderMode": "CANVAS",
               "isLoading": false,
               "responsiveBehavior": "fill",
+              "originalTopRow": 17,
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "maxDynamicHeight": 9000,
+              "originalBottomRow": 73,
+              "minDynamicHeight": 10
+            },
+            {
+              "widgetName": "Text1",
+              "displayName": "Text",
+              "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
+              "searchTags": [
+                "typography",
+                "paragraph",
+                "label"
+              ],
+              "topRow": 7,
+              "bottomRow": 12,
+              "parentRowSpace": 10,
+              "type": "TEXT_WIDGET",
+              "hideCard": false,
+              "animateLoading": true,
+              "overflow": "NONE",
+              "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+              "parentColumnSpace": 16.75,
+              "dynamicTriggerPathList": [],
+              "leftColumn": 0,
+              "dynamicBindingPathList": [
+                {
+                  "key": "truncateButtonColor"
+                },
+                {
+                  "key": "fontFamily"
+                },
+                {
+                  "key": "borderRadius"
+                }
+              ],
+              "shouldTruncate": false,
+              "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+              "text": "Use the form below to add new product. \nEneter all product information and click the submit button.",
+              "key": "u3gtdg8iwd",
+              "isDeprecated": false,
+              "rightColumn": 27,
+              "textAlign": "LEFT",
+              "dynamicHeight": "AUTO_HEIGHT",
+              "widgetId": "0tc4ig08gc",
+              "minWidth": 450,
+              "isVisible": true,
+              "fontStyle": "BOLD",
+              "textColor": "#231F20",
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "responsiveBehavior": "fill",
               "originalTopRow": 7,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 63,
-              "minDynamicHeight": 10
+              "originalBottomRow": 16,
+              "fontSize": "1rem",
+              "minDynamicHeight": 4
             }
           ]
         },
